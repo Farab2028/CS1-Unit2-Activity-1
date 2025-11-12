@@ -1,13 +1,20 @@
 .flexbox {
     display: flex;
-    border: 2px solid blue;
+    border: 2px solid rgba(0, 0, 255, 0.274);
     padding: 20px
 }
 .item {
-    border: 2px solid red;
+    border: 2px solid rgb(234, 0, 255);
     padding: 20px;
 }
 
 #box1 {
     justify-content:space-evenly;
+
+    background: rgba(255, 105, 180, 0.388);
+}
+
+#box2, #box3, #box4 {
+    justify-content: center;
+    background: rgba(255, 105, 180, 0.517);
 }
