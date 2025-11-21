@@ -22,3 +22,16 @@
 h2{
     text-align: center;
 }
+
+button {
+padding: 5px;
+background: linear-gradient(rgb(255, 192, 238), rgb(240, 164, 240));
+border-radius: 5px;
+border: 2px solid white;
+color: white;
+}
+
+img {
+border-radius: 10px;
+border: 2px solid white;
+}
